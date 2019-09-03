@@ -1,0 +1,630 @@
+li{
+  list-style:none;
+}
+header {
+  text-align: center;
+  line-height: 70px;
+  color: white;
+  width: 100%;
+  height: 70px;
+  background: url("./../img/login.png") 0 0 no-repeat;
+  background-size: cover;
+}
+
+.logo_div {
+  width: 18%;
+  margin: 40px auto;
+
+  img {
+    width: 100%;
+  }
+}
+
+//登录
+.login_form {
+  width: 95%;
+  margin: 0 auto;
+  font-size: 14px;
+  .form_item {
+    margin-bottom: 10px;
+    border-bottom: 1px solid #c8c7cc;
+    padding-bottom: 5px;
+
+    img {
+      width: 7%;
+      vertical-align: middle;
+    }
+
+    input {
+      width:86%;
+      border: none;
+      outline: none;
+    }
+  }
+}
+
+.password_part {
+  overflow: hidden;
+  .forget_span{
+    font-size: 14px;
+    float: left;
+    color:#323233;
+  }
+}
+.get_sms_code{
+  border: none;
+  //border: 1px solid #DDDDDD;
+  background-color: #DDDDDD;
+  //background-color: #1989fa;
+  border-radius: 3px;
+  font-size: 12px;
+  color: white;
+  padding: 6px 7px;
+  width: 25%;
+}
+.no_get_sms_code{
+   //display: none;
+   text-align: right !important;
+  span{
+    font-size: 12px;
+    color:#999999;
+  }
+}
+.switch_content{
+  position: relative;
+  height: 40px;
+  overflow: hidden;
+}
+.pas{
+  position: absolute;
+  top: 0;
+  left:0;
+  width:100%;
+}
+.sms{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+#login_btn {
+  width: 100%;
+  color: white;
+  margin-top: 25px;
+  border: none !important;
+  border-radius:3px;
+  padding: 10px 15px;
+  font-size: 15px;
+  opacity: 0.8;
+  background-color: #1989fa;
+}
+.login_switch {
+  text-align: center;
+  margin-top: 15px;
+  font-size: 14px;
+  color: #8f8f94;
+}
+.reg{
+  position: absolute;
+  right: 5%;
+  top: 2%;
+  z-index: 2;
+  font-size: 12px;
+  color: white;
+}
+//注册
+.no_get_sms_code_reg{
+  text-align: right !important;
+  span{
+    font-size: 12px;
+    color:#999999;
+  }
+}
+.agree_to{
+  width: 60%;
+  margin: 0 auto;
+  overflow: hidden;
+  .van-checkbox{
+    float: left;
+    margin-top: 16px;
+  }
+  p{
+    float: right;
+    span:nth-of-type(1){
+      color: #999999;
+      font-size: 14px;
+    }
+    span:nth-of-type(2){
+      color: #2EABFD;
+      font-size:12px;
+      margin-left:10px;
+    }
+  }
+}
+//首页
+.grid_list li {
+  width: calc(100% / 5);
+  text-align: center;
+  float: left;
+  margin: 10px auto 0;
+}
+.grid_list .grid_img{
+  width: 45%;
+  margin: 0 auto;
+  img{
+    width: 100%;
+  }
+}
+.grid_list li p{
+  font-size:12px;
+  color: #000;
+}
+
+.grid_list1 li {
+  width: calc(100% / 5);
+  text-align: center;
+  float: left;
+  margin: 10px auto 0;
+}
+.grid_list1 .grid_img{
+  width: 45%;
+  margin: 0 auto;
+  img{
+    width: 100%;
+  }
+}
+.grid_list1 li p{
+  font-size:12px;
+  color: #000;
+}
+
+
+.main_content1{
+  width:90%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.main_content1_l{
+  width:45%;
+  float: left;
+  //border-right: 1px dashed #c4c4c4;
+  div{
+    margin-top:20px;
+  }
+}
+.main_content1_r{
+  width:45%;
+  float: right;
+  div{
+    margin-top:20px;
+  }
+}
+.fire_icon{
+  width:18%;
+}
+.active{
+  visibility: hidden;
+}
+.main_content2{
+  width: 100%;
+  margin: 0 auto;
+  margin-top:20px;
+  p{
+    text-align:center;
+  }
+  img{
+    width:60%;
+  }
+}
+.main_content3,.main_content4{
+  margin-top:20px;
+}
+//卡片管理
+.card_list{
+  margin-top:20px;
+}
+.card_list_item {
+  width:90%;
+  border-radius:10px;
+  margin: 0 auto;
+  margin-top:8px;
+  position: relative;
+}
+
+.card_list_item img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+.card_msg {
+  color: white;
+  position: absolute;
+  top:32%;
+  left: 20%;
+}
+
+.card_msg span:nth-child(1) {
+  font-size: 20px;
+}
+
+.card_msg span:nth-child(2) {
+  font-size: 16px;
+}
+
+.card_list_date {
+  width:78%;
+  font-size: 14px;
+  color: white;
+  position: absolute;
+  top: 58%;
+  left: 10%;
+}
+
+.card_list_l {
+  float: left;
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.card_list_r {
+  float: right;
+  border: 1px solid white;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.reserve {
+  position: absolute;
+  top: 82%;
+  right: 10%;
+}
+.reserve span{
+  color: white;
+}
+.reserve span:nth-child(2) {
+  margin-left: 8px;
+}
+.no_info {
+  width: 50%;
+  margin: 30px auto;
+  text-align: center;
+}
+.no_info img {
+  width: 100%;
+}
+.add_card {
+  width: 36%;
+  height: 40px;
+  line-height: 40px;
+  font-size: 16px;
+  text-align: center;
+  color: #656565;
+  margin: 0 auto;
+  margin-top:50px;
+  span{
+    float:left;
+    margin-top:-6px;
+    margin-left:8px;
+  }
+}
+.sign_in_icon{
+  width:20px;
+  padding:10px 2px;
+  border: 1px solid #bd1d1d;
+  border-right: none;
+  border-top-left-radius:8px;
+  border-bottom-left-radius:8px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  background-color:#bd1d1d;
+  position: fixed;
+  right: 0;
+  bottom:42%;
+  z-index:1999;
+}
+//积分兑换
+.credits_banner{
+  width: 100%;
+}
+.credits_title{
+  padding: 15px 10px 5px 10px;
+  border-bottom: 1px solid #eee;
+  font-size: 15px;
+  text-align:left;
+}
+
+.credits_title img{
+  width: 6%;
+  vertical-align: middle;
+  margin-bottom: 4px;
+}
+//兑换中心
+.exchange_content{
+  line-height: 21px;
+  padding-top:20px;
+}
+/*去兑换*/
+.to_change{
+  width: 90%;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 5px;
+  padding:10px;
+}
+.to_change_p{
+  text-align: left;
+}
+.to_change_p span:nth-child(1){
+  font-size: 16px;
+  color: #000000 !important;
+}
+.to_change_p span:nth-child(2){
+  font-size: 14px;
+  margin-left: 10px;
+}
+.exchange_list{
+  width:100%;
+  margin: 0 auto;
+  background: url(./../img/duihuan_bg.png) no-repeat;
+  background-size: cover;
+  box-shadow: none !important;
+  height:145px;
+  border-radius:15px;
+  padding-top: 20px;
+
+}
+.exchange_title{
+  width: 88%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.exchange_title_span1{
+  float: left;
+  font-size: 18px;
+  color: white;
+  margin-top: 2px;
+}
+.exchange_title_span2{
+  float: left;
+  font-size:16px;
+  color: white;
+}
+.exchange_title button{
+  float: right;
+  background-color: #FF4500;
+  border: 1px solid #FF4500;
+  color: white;
+  height: 27px;
+  white-space: nowrap;
+  border-radius: 10px;
+  //width:88px;
+}
+.exchange_title button img{
+  width:28px;
+  height:28px;
+  margin-top:-3px;
+}
+.exchange_list table{
+  width:90%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 12px;
+  color: white;
+  border-color:white;
+  margin-top:30px;
+  border: none;
+}
+.exchange_list table{
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+.exchange_list table th{
+  border: none;
+}
+/*算一算*/
+.to_calculate{
+  width: 90%;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 5px;
+  padding:10px;
+  margin-top: 10px;
+}
+.to_calculate_p{
+  text-align: left;
+  font-size: 16px;
+  color: #000000 !important;
+}
+.integral_num{
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.integral_num img{
+  width:30px;
+  height:30px;
+  float: left;
+}
+.integral_num input{
+  width: 146px;
+  height: 30px;
+  padding: 0 5px;
+  float: left;
+  margin-left: 10px;
+  background-color:#F8F8FF;
+  font-size: 14px;
+  line-height: 21px;
+  margin-bottom: 15px;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 3px;
+  outline: 0;
+  -webkit-appearance: none;
+}
+.result_num{
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+.result_num img{
+  width:30px;
+  height:30px;
+  float: left;
+}
+.result_num input{
+  width: 235px;
+  height: 30px;
+  padding: 0 5px;
+  float: left;
+  margin-left: 10px;
+  background-color:#F8F8FF;
+  font-size: 14px;
+  line-height: 21px;
+  margin-bottom: 15px;
+  border: 1px solid rgba(0,0,0,.2);
+  border-radius: 3px;
+  outline: 0;
+  -webkit-appearance: none;
+}
+.integral_num button{
+  font-size: 14px;
+  float:left;
+  margin-left:20px;
+  background-color: #46A4F9;
+  border: 1px solid #46A4F9;
+  color: white;
+  height: 30px;
+  line-height: 15px;
+  border-radius:15px;
+  white-space: nowrap;
+}
+/*短信或者电话查询积分*/
+.query_integral{
+  width: 90%;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 5px;
+  padding:10px;
+  margin-top: 10px;
+}
+.text_query{
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  margin-bottom: 8px;
+  /*border-bottom:1px solid #CCCCCC;*/
+}
+.text_query_l{
+  width: 65%;
+  float: left;
+  text-align: left;
+}
+.text_query_l p:nth-child(1){
+  font-size: 16px;
+  color: #000000 !important;
+}
+.text_query_l p:nth-child(2){
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #8f8f94;
+}
+.text_query_r{
+  float: right;
+}
+.text_query_r img{
+  width: 35px;
+  height: 35px;
+}
+.call_query{
+  width: 100%;
+  margin: 0 auto;
+  overflow: hidden;
+  /*border-bottom:1px solid #CCCCCC;*/
+}
+.call_query_l{
+  width: 65%;
+  float: left;
+  text-align: left;
+}
+.call_query_l p:nth-child(1){
+  font-size:16px;
+  color: #000000 !important;
+}
+.call_query_l p:nth-child(2){
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #8f8f94;
+}
+.call_query_r{
+  float: right;
+}
+.call_query_r img{
+  width: 35px;
+  height: 35px;
+}
+/*直接查一查*/
+.check{
+  text-align: left;
+}
+.check p:nth-child(1){
+  font-size:16px;
+  color: #000000 !important;
+}
+.check p:nth-child(2){
+  font-size: 14px;
+  margin-top: 0;
+  margin-bottom: 10px;
+  color: #8f8f94;
+}
+//兑换详情
+.ex_details_content{
+  width: 100%;
+  margin: 0 auto;
+  img{
+    width: 100%;
+  }
+}
+.exchange_steps {
+  position: absolute;
+  left: 50%;
+  top: 161px;
+  width: 80%;
+  margin-left: -45%;
+  padding: 10px 15px;
+  font-size: 13px;
+  color: #333;
+  border-radius: 5px;
+  margin-bottom: 60px;
+  overflow: hidden;
+  background-color:#efeff4;
+}
+.plan_btn_fot_{
+  width: 100%;
+  height: 33px;
+  font-size: 14px;
+  margin: 0 auto;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+}
+.plan_btn_fot_l{
+  width:50%;
+  height: 100%;
+  float: left;
+  background-color:#FB4E4E;
+  color: white;
+  text-align:center;
+  line-height: 33px;
+}
+.plan_btn_fot_r{
+  width: 50%;
+  height: 100%;
+  float:right;
+  background-color:#46A4F9;
+  color: white;
+  text-align: center;
+  line-height: 33px;
+}

@@ -1,0 +1,27 @@
+/*修改vant的默认样式*/
+/*轮播*/
+#van_swipe img{
+    height: auto;
+}
+#van_swipe .van-swipe-item{
+    line-height:2;
+}
+#van_swipe  .van-swipe-item[data-v-a83bd3b0]:nth-child(odd) {
+    background-color:white;
+}
+#van_swipe  .van-swipe-item[data-v-a83bd3b0]:nth-child(even) {
+    background-color:white;
+}
+.van-swipe__indicator{
+    background-color:#c4c4c4;
+}
+
+
+/*计划详情选择消费地区*/
+
+.van-cell__value{
+  background-color:white;
+}
+.van-field__control{
+  color:#847c7c;
+}
